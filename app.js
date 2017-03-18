@@ -17,7 +17,7 @@ var path = require('path');
 
 /* Config */
 
-var port = server.listen(process.env.PORT || conf.port);
+var port = server.listen(process.env.PORT || 3000);
 
 var app = express();
 var server;
